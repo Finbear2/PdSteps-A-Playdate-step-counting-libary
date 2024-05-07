@@ -8,6 +8,9 @@ To install PdSteps, copy the "PdSteps.lua" file into your project and import it 
 ```lua
 import "Path/to/the/lua/file"
 ```
+## Important
+
+To work, the Playdate must be in the pocket of the user.
 
 ## Time to get started!
 To start tracking the steps, you need the following lines:
