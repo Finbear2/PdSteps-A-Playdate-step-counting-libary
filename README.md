@@ -87,13 +87,13 @@ Sets steps to 0.
 ```lua
 PdSteps:StartStepChecking( Delay )
 ```
-Starts to check steps after delay. The delay needs to be in milliseconds.
+Starts to check steps after delay, this includes disabling screen auto lock and starting the accelerometer. The delay needs to be in milliseconds.
 
 
 ```lua
 PdSteps:StopStepChecking()
 ```
-Stops checking the steps.
+Stops checking the steps, which includes turning off the accelerometer and disabling the auto lock.
 
 
 ```lua
