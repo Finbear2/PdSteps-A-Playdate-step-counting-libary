@@ -60,16 +60,10 @@ function CheckSteps()
 
 	local accellaration
 
-	if Acel > Pre_Acel then
-		
-		accellaration = Acel - Pre_Acel
+	
+	accellaration = math.abs( Acel - Pre_Acel )
 
-	else
-
-		accellaration = Pre_Acel - Acel
-
-	end
-
+	
 	if accellaration > 0.9 then
 		
 		Steps += 1
