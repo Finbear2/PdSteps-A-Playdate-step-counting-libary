@@ -64,7 +64,7 @@ function CheckSteps()
 	accellaration = math.abs( Acel - Pre_Acel )
 
 	
-	if accellaration > 0.85 then
+	if accellaration > 0.9 then
 		
 		Steps += 1
 
