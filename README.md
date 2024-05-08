@@ -69,19 +69,19 @@ This section goes through all the functions and features
 ```lua
 PdSteps:GetSteps()
 ```
-Returns the number of steps taken as a float
+Returns the number of steps taken as an integer.
 
 
 ```lua
 PdSteps:GetAreStepsTracking()
 ```
-Returns whether or not steps are being tracked as a boolean
+Returns whether or not steps are being tracked as a boolean.
 
 
 ```lua
 PdSteps:ResetSteps()
 ```
-Sets steps to 0
+Sets steps to 0.
 
 
 ```lua
