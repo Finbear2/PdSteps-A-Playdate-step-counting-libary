@@ -42,7 +42,7 @@ function PdSteps:StartStepChecking( Delay )
         
         Pre_Acel = 0
 
-	StepChecking = true
+		StepChecking = true
 
         CheckSteps()
 
@@ -103,6 +103,14 @@ end
 
 function PdSteps:DecreaseSteps( Amount )
     
-    Steps -= Amount
+    if Steps - Amount < 0 then
+		
+		Steps = 0
+
+	else
+
+		Steps -= Amount
+
+	end
 
 end
