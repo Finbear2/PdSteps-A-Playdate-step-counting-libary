@@ -22,13 +22,13 @@ import "CoreLibs/timer"
 --Import PdSteps itself
 import "Path/To/PdSteps"
 
+--Start checking steps after 15000 milliseconds ( 15 seconds )
+  PdSteps:StartStepChecking( 15000 )
+
 function playdate.update()
 
   --Update all timers so PdSteps can work
   playdate.timer.updateTimers()
-
-  --Start checking steps after 15000 milliseconds ( 15 seconds )
-  PdSteps:StartStepChecking( 15000 )
 
 end
 ```
@@ -43,6 +43,9 @@ import "CoreLibs/graphics"
 --Import PdSteps itself
 import "Path/To/PdSteps"
 
+--Start checking steps after 15000 milliseconds ( 15 seconds )
+  PdSteps:StartStepChecking( 15000 )
+
 function playdate.update()
 
   --Clear the screen
@@ -50,9 +53,6 @@ function playdate.update()
 
   --Update all timers so PdSteps can work
   playdate.timer.updateTimers()
-
-  --Start checking steps after 15000 milliseconds ( 15 seconds )
-  PdSteps:StartStepChecking( 15000 )
 
   --Display the steps
   playdate.graphics.drawText( tostring( PdSteps:GetSteps()), 200, 120 )
