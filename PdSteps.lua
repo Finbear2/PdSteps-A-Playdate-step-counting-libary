@@ -68,7 +68,7 @@ function CheckSteps()
 	
 	if accellaration > 0.91 then
 		
-		Steps += 2
+		Steps += 1
 
 	end
 
