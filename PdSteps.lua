@@ -42,7 +42,7 @@ function PdSteps:StartStepChecking( Delay )
         
         Pre_Acel = 0
 
-		StepChecking = true
+	StepChecking = true
 
         CheckSteps()
 
