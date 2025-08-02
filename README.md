@@ -27,7 +27,7 @@ import "CoreLibs/timer"
 import "Path/To/PdSteps"
 
 --Start checking steps after 15000 milliseconds ( 15 seconds )
-  PdSteps:StartStepChecking( 15000 )
+PdSteps:StartStepChecking( 15000 )
 
 function playdate.update()
 
@@ -48,7 +48,7 @@ import "CoreLibs/graphics"
 import "Path/To/PdSteps"
 
 --Start checking steps after 15000 milliseconds ( 15 seconds )
-  PdSteps:StartStepChecking( 15000 )
+PdSteps:StartStepChecking( 15000 )
 
 function playdate.update()
 
