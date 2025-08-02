@@ -77,7 +77,7 @@ Returns the number of steps taken as an integer.
 
 
 ```lua
-PdSteps:GetAreStepsTracking()
+PdSteps:GetTrackingStatus()
 ```
 Returns whether or not steps are being tracked as a boolean.
 
