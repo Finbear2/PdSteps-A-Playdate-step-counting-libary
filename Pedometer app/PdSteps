@@ -24,7 +24,7 @@ function PdSteps:GetSteps()
 
 end
 
-function PdSteps:GetAreStepsTracking()
+function PdSteps:GetTrackingStatus()
     
     return StepChecking
 
