@@ -1,4 +1,3 @@
-
 # Welome to PdSteps!
 A step-counting library for the Playdate
 
@@ -11,6 +10,11 @@ import "Path/to/the/lua/file"
 ## Important
 
 To work, the Playdate must be in the pocket of the user.
+
+### Accuracy
+
+According to a video review of pd-steps by Playdate Player on YouTube, after a walk around the park, I
+the amount of steps PD-steos said had been walked was exactly the same as a pedometer from Amazon though it differed by a bit compared to the pedometer on his phone.
 
 ## Time to get started!
 To start tracking the steps, you need the following lines:
